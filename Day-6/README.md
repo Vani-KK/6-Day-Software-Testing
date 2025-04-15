@@ -10,15 +10,20 @@ Session 1:
 
   from selenium import webdriver
   driver = webdriver.Chrome()
+
   driver.get("https://qxf2.com/selenium-tutorial-main")
-  name = driver.find_element("xpath", "//input[@id='name']")# Find the name field and fill name
+  name = driver.find_element("xpath", "//input[@id='name']")            **# Find the name field and fill name**
+
   name.send_keys('Vani')
-  driver.find_element("xpath", "//input[@name='email']").send_keys('vani@qxf2.com')# Find the email field and fill your email
-  phone = driver.find_element("id", "phone")# Find the phone no field and fill phone no
+
+  driver.find_element("xpath", "//input[@name='email']").send_keys('vani@qxf2.com')      **# Find the email field and fill your email**
+
+  phone = driver.find_element("id", "phone")     **# Find the phone no field and fill phone no**
+
   phone.send_keys('9999999999')
   
   button = driver.find_element("xpath", "//button[text()='Click me!']")
-  button.click()# Identify the xpath for Click me button and click on it
+  button.click()                      **# Identify the xpath for Click me button and click on it**
 
 
   Explained how to interact with web elements using Selenium.
