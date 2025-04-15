@@ -1,1 +1,1 @@
-# 6-Day-Software-Testing
+This is a 6-Day-Software-Testing course offered by skill_lab for third year students.We gained hands-on experience on relevant concepts covered during the sessions. 
