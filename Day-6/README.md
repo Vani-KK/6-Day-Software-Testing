@@ -12,8 +12,8 @@ Session 1:
   driver = webdriver.Chrome()
   driver.get("https://qxf2.com/selenium-tutorial-main")
   name = driver.find_element("xpath", "//input[@id='name']")# Find the name field and fill name
-  name.send_keys('Deekshitha')
-  driver.find_element("xpath", "//input[@name='email']").send_keys('deekshitha@qxf2.com')# Find the email field and fill your email
+  name.send_keys('Vani')
+  driver.find_element("xpath", "//input[@name='email']").send_keys('vani@qxf2.com')# Find the email field and fill your email
   phone = driver.find_element("id", "phone")# Find the phone no field and fill phone no
   phone.send_keys('9999999999')
   
